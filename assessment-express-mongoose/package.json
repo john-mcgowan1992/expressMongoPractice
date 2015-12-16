@@ -1,0 +1,25 @@
+{
+  "name": "FullstackAssessment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "nodemon ./node_modules/.bin/mocha --reporter spec --timeout 300 test/*.test.js",
+    "grade": "mocha --reporter spec --timeout 300 test/*.js"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.14.1",
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.10",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "nodemon": "^1.7.1",
+    "supertest": "^1.1.0"
+  }
+}
